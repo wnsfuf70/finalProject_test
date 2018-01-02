@@ -44,7 +44,7 @@
 
 	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource"  ref="dataSource" />  <!-- 컨넥션풀 호출  -->
-		<beans:property name="mapperLocations" value="classpath:finalProject_Mapper/mapper/*.xml" />	 <!-- 경로에 마이바티스.xml 구현 -->	
+		<beans:property name="mapperLocations" value="classpath:finalproject_mapper/mapper/*.xml" />	 <!-- 경로에 마이바티스.xml 구현 -->	
 	</beans:bean>	
 		
 	<beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">

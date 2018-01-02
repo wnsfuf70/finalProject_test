@@ -4,12 +4,11 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
- <mapper namespace="kos.triple.project.dao.HomeDAO">
+<mapper namespace="kos.triple.project.dao.HomeDAO">
 	
-	<select id="sqlTest_proc" resultType="java.lang.String">
+	<select id="sqlTest_proc" resultType="String">
 		SELECT '테스트완료' FROM DUAL
 	</select>
-	
 	
 	
 </mapper>
