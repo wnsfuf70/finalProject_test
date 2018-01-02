@@ -1,8 +1,7 @@
 package kos.triple.project.dao;
 
-import org.springframework.stereotype.Repository;
+public interface HomeDAO {
 
-@Repository
-public class HomeDAO {
-
+	public void sqlTest_proc();
+	
 }

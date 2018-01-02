@@ -1,8 +1,7 @@
 package kos.triple.project.service;
 
-import org.springframework.stereotype.Service;
+public interface HomeService {
 
-@Service
-public class HomeService {
+	public void sqlTest();
 
 }
