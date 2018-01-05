@@ -26,7 +26,7 @@
 		<button type="submit">동작확인</button>
 	</form>
 
-	<br><br><img alt="이미지로딩실패" src="${image}penguins.jpg"><br><br>
+	<br><br><img width="300" height="200" alt="이미지로딩실패" src="${image}penguins.jpg"><br><br>
 	
 	<br><br><input type="button" value="스크립트" onclick="test();" ><br><br>
 
