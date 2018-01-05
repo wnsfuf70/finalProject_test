@@ -10,8 +10,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
 
-	<script src="${script}testScript.js" type="text/javascript"></script>
-	<link href="${css}testStyle.css" type="text/css" rel="stylesheet">
+	<script src="${script}testscript.js" type="text/javascript"></script>
+	<link href="${css}teststyle.css" type="text/css" rel="stylesheet">
 
 </head>
 
@@ -26,9 +26,9 @@
 		<button type="submit">동작확인</button>
 	</form>
 
-	<br><br><img alt="이미지로딩실패" src="${image}Penguins.jpg"><br><br>
+	<br><br><img alt="이미지로딩실패" src="${image}penguins.jpg"><br><br>
 	
-	<br><br><input type="button" value="스크립트" onclick="testScript();" ><br><br>
+	<br><br><input type="button" value="스크립트" onclick="test();" ><br><br>
 
 	<p>빨간색이 보이면 css가 정상적으로 동작하는 것입니다.</p>
 		
