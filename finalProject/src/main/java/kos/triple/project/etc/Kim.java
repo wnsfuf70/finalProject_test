@@ -6,4 +6,9 @@ public class Kim {
 		
 		System.out.println("kim!!");
 	}
+	
+	public void printKKK() {
+		
+		System.out.println("kkk");
+	}
 }
