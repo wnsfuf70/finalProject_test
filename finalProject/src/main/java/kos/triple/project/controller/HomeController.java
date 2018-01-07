@@ -39,5 +39,14 @@ public class HomeController {
 		
 		return "home";
 	}
+	
+	@RequestMapping(value = "testAction", method = RequestMethod.GET)
+	public String testAction(Locale locale, Model model) {
+		
+		service.sqlTest();
+		
+		return "home";
+	}
 
+	
 }
